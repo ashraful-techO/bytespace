@@ -7,6 +7,7 @@ import CommunityTestimonials from "@/components/shared/CommunityTestimonials";
 import IconBox from "@/components/shared/IconBox";
 import Tag from "@/components/shared/Tag";
 import FooterElement from "./FooterElement";
+import CreatorCTA from "./CreatorCTA";
 
 const Footer = () => {
   return (
@@ -28,8 +29,12 @@ const Footer = () => {
         <BannerText2 />
       </div>
 
-      <div>
+      <div className="mb-15">
         <IconBox />
+      </div>
+
+      <div className="w-full">
+        <CreatorCTA />
       </div>
 
       <div className="w-full">
