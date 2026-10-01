@@ -7,15 +7,14 @@ type Props = {
 
 const BannerText = ({ heading, subheading }: Props) => {
   return (
-    <div className="flex flex-col gap-2">
-      {" "}
-      {/* Added a wrapper for spacing */}
-      {/* Explicitly styling the h2 */}
-      <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+    <div className="w-229.25 flex flex-col justify-center items-center gap-2 mt-10">
+      <h2 className="w-147 text-center text-5xl md:text-5xl font-bold text-gray-900">
         {heading}
       </h2>
       {/* Explicitly styling the p */}
-      <p className="text-lg text-gray-600">{subheading}</p>
+      <p className="w-229.25 bg-white text-[16.5px] m-0 text-center text-gray-600 font-normal">
+        {subheading}
+      </p>
     </div>
   );
 };
