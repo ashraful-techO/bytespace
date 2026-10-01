@@ -1,5 +1,5 @@
+import { Analytics } from "@vercel/analytics/next";
 import HomePage from "./home/page";
-
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <main className="flex flex-1 w-full flex-col items-center bg-white dark:bg-black sm:items-start">
         {/* <Hero /> */}
         <HomePage />
+        <Analytics />
       </main>
     </div>
   );
